@@ -1,26 +1,30 @@
-![banner](assets/banner.png)
+### hi, i'm TahuCryptsi
 
-### whoami
+security research, mostly on open source. i read code more than i run tools.
 
-Reading source code, mostly the parts nobody looks at twice.
-Access control, archive handling, the boring spots where things break.
+**what i look at**
 
-### on the bench
+wordpress plugins, npm and pip packages, self hosted apps. the parts nobody
+photographs: archive extraction, import features, access control on the endpoint
+nobody remembers exists.
 
-- a handful of WordPress plugins, pulled apart in a local stack
-- some npm and PyPI packages that unpack archives
-- whatever else looks under-tested
+**stack**
 
-### rules i hold myself to
+python · php · javascript · go
 
-| | |
-|---|---|
-| reproduce first | scanner hit is a lead, not a finding |
-| report privately | publish after the fix ships |
-| minimum proof | no real user data, ever |
+wordpress internals · node and npm ecosystem · docker-based reproduction · static analysis
 
-### disclosed
+**how i work**
 
-Nothing yet. First one is being worked on.
+reproduce locally first. report privately. publish after the fix ships.
+minimum proof, no real user data.
 
-<sub>if you found this and want to talk, open a private advisory on the affected repo</sub>
+**currently**
+
+- a local stack for pulling apart wordpress plugins
+- a growing pile of npm and pip packages that unpack archives
+- first report is out, waiting on triage
+
+**elsewhere**
+
+[blog](https://tahucryptsi.github.io/TahuCryptsi/) · [advisory log](https://github.com/advisories?query=gha+assignee%3ATahuCryptsi)
