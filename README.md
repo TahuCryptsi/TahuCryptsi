@@ -1,41 +1,22 @@
-<div align="center">
-
 # TahuCryptsi
 
-**Independent Security Researcher** · OSS vulnerability research · parser & supply-chain security
+Security research notes. No advisories published yet.
 
-`Jakarta, ID (UTC+7)` · `Responsible disclosure only`
+## Currently
 
-</div>
+- Reading source of open source projects, focused on access control and archive handling.
+- Building local reproduction environments so any claim can be checked.
 
----
+## How I work
 
-## What I do
+- Reproduce locally first. A scanner hit is a lead, not a finding.
+- Report privately to the maintainer. Publish only after a fix ships.
+- Minimum proof needed. No real user data at any point.
 
-I audit open-source software for security defects, build local proofs of concept, and report them
-through coordinated disclosure channels (GitHub Security Advisory, WPScan, vendor contacts).
-Findings are reproduced in a lab before they are written up — a scanner hit is a lead, not a finding.
+## Disclosure log
 
-**Focus areas**
-
-| Area | Detail |
-|---|---|
-| Path traversal / archive extraction | zip-slip, tar-slip, lockfile injection in package managers |
-| Broken access control | missing capability checks, missing nonces, role trust |
-| Authentication logic | OTP binding, session flags, identity confusion |
-| Deserialization | PHP object injection, unsafe model loading |
-
-## Disclosure policy
-
-- Report privately to the maintainer or vendor first. No public drop before a fix ships.
-- Proof of concept always against a local instance I control.
-- No access to real user data, ever. Minimum reproducible proof only.
+Empty for now. Entries are added when an advisory is assigned.
 
 ## Contact
 
-- Security reports: open a private advisory on the affected repo, or reach me at the address on my profile.
-- PGP: available on request.
-
----
-
-<sub>Statistics below are generated from public advisory data only.</sub>
+Open a private security advisory on the affected repository.
